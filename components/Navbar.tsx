@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ModeToggle";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import Image from "next/image";
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,13 +19,18 @@ export function Navbar() {
     <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-2">
-          <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center">
             <img
               src="https://res.cloudinary.com/drrhtmzpk/image/upload/v1753383976/UIUDSC_Logo.png"
               alt="UIU DSC"
-              className="h-16 w-auto object-contain"
+              className="h-16 w-auto object-contain dark:hidden"
             />
-          </Link>
+            <img
+              src="/logo_dark.png"
+              alt="UIU DSC"
+              className="h-16 w-auto object-contain hidden dark:block"
+            />
+            </Link>
         </div>
 
         {/* Desktop Navigation */}
