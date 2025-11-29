@@ -1,40 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# UIU Data Science Club Website Clone
 
-## Getting Started
+A clone of the UIU Data Science Club website, built to demonstrate modern web development practices using Next.js and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Framework:** [Next.js 16](https://nextjs.org/) (Pages Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **UI Components:** [Shadcn UI](https://ui.shadcn.com/) (Manual implementation)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Getting Started
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Ensure you have Node.js installed on your machine.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/rafsanbasunia/uiu_dsc_clone.git
+    cd uiu_dsc_clone
+    ```
 
-## Learn More
+2.  Install dependencies:
+    ```bash
+    yarn install
+    # or
+    npm install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  Run the development server:
+    ```bash
+    yarn dev
+    # or
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Project Structure
 
-## Deploy on Vercel
+- `pages/`: Application routes and API endpoints.
+- `components/`: Reusable React components.
+  - `ui/`: Primitive UI components (Buttons, Inputs, Cards, etc.).
+- `styles/`: Global styles and Tailwind configuration.
+- `lib/`: Utility functions.
+- `public/`: Static assets.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✨ Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- **Responsive Design:** Fully responsive layout for all devices.
+- **Dark Mode:** Built-in dark mode support.
+- **Dynamic Events:** Event listing with filtering capabilities.
+- **Membership Form:** Interactive join form with validation.
+- **Resource Hub:** Access to study materials and questions.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.

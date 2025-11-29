@@ -174,6 +174,7 @@ export default function Join() {
                     <Textarea 
                       id="presentAddress"
                       placeholder="Your current address"
+                      className="min-h-20"
                     />
                   </div>
                 </div>
