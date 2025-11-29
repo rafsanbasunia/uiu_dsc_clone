@@ -1,0 +1,7 @@
+# Cloudflare Pages ignore file
+node_modules
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.next
+.git
